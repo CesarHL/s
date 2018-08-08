@@ -1,0 +1,26 @@
+package com.example.perra.demo.restcontroller;
+
+<<<<<<< HEAD
+import org.springframework.stereotype.Controller;
+=======
+>>>>>>> first commit
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+<<<<<<< HEAD
+@Controller
+public class ExampleRestController {
+	
+	@RequestMapping("/")
+=======
+@RestController("exampleRestController")
+public class ExampleRestController {
+	
+	@RequestMapping("/xss")
+>>>>>>> first commit
+    public @ResponseBody String greeting() {
+        return "Hello World";
+    }
+
+}
